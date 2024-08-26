@@ -25,6 +25,7 @@ se utlizo nodemon para el inicio y actualizaci�n en tiempo real del servidor.
 
 ## Uso de la API
 
+##
 Registro de usuario
 POST `/auth/register`
 
@@ -41,7 +42,11 @@ response
    "message": "User registered successfully"
 }
 
+##
 
+
+
+##
 Inicio sesi�n de usuario
 POST `/auth/login`
 
@@ -55,9 +60,9 @@ response
 {
    "token": "token"
 }
+##
 
-
-
+##
 Crear Pedido
 POST `/metro/orders`
 
@@ -78,8 +83,10 @@ response
    "total": 10.9
 }
 
+##
 
 
+##
 Obtener una orden segun el id del usuario
 GET `/metro/orders/:orderId`
 
@@ -114,9 +121,11 @@ response
    ]
 }
 
+##
 
 
 
+##
 Obtener todas las ordenes de un usuario
 GET `metro/users/:userId/orders`
 
@@ -157,8 +166,10 @@ response
    ]
 }
 
+##
 
 
+##
 Actualizar el estado de un pedido(solo admin)
 PUT `metro/orders/:orderId`
 
@@ -172,6 +183,8 @@ response
 {
    "message": "Order status updated successfully"
 }
+
+##
 
 En esta petici�n se incluye userId porque se v�lida si el usuario es admin o no.
 
