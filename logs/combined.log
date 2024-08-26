@@ -1,0 +1,210 @@
+2024-08-24T20:29:35.168Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:29:53.405Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:30:11.836Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:32:26.459Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:32:36.696Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:32:50.600Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:35:04.711Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:38:19.858Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:38:33.277Z [[32minfo[39m]: User 1 is attempting to create an order
+2024-08-24T20:38:33.288Z [[32minfo[39m]: Order 34 created successfully by User 1
+2024-08-24T20:38:39.145Z [[32minfo[39m]: User 1 is attempting to create an order
+2024-08-24T20:38:39.152Z [[32minfo[39m]: Order 35 created successfully by User 1
+2024-08-24T20:38:40.975Z [[32minfo[39m]: User 1 is attempting to create an order
+2024-08-24T20:38:40.982Z [[32minfo[39m]: Order 36 created successfully by User 1
+2024-08-24T20:38:42.147Z [[32minfo[39m]: User 1 is attempting to create an order
+2024-08-24T20:38:42.156Z [[32minfo[39m]: Order 37 created successfully by User 1
+2024-08-24T20:40:04.140Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:42:16.773Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:42:31.171Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:42:34.089Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:42:34.225Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:42:40.286Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:42:40.372Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:42:42.731Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:42:42.848Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:42:46.647Z [[32minfo[39m]: Attempt to register with email: torviscogod40@gmail.com
+2024-08-24T20:42:46.747Z [[31merror[39m]: Error registering user with email: torviscogod40@gmail.com - Duplicate entry 'torviscogod40@gmail.com' for key 'users.email'
+2024-08-24T20:42:53.260Z [[32minfo[39m]: Attempt to register with email: torviscogod40@gmail.com
+2024-08-24T20:42:53.370Z [[31merror[39m]: Error registering user with email: torviscogod40@gmail.com - Duplicate entry 'torviscogod40@gmail.com' for key 'users.email'
+2024-08-24T20:45:29.165Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:45:44.818Z [[32minfo[39m]: Attempt to update status of order ID 2 by user ID 3
+2024-08-24T20:45:44.826Z [[32minfo[39m]: Order ID 2 status updated to completed
+2024-08-24T20:45:51.690Z [[32minfo[39m]: Attempt to update status of order ID 2 by user ID 3
+2024-08-24T20:45:51.693Z [[32minfo[39m]: Order ID 2 status updated to completed
+2024-08-24T20:45:54.618Z [[32minfo[39m]: Attempt to update status of order ID 2 by user ID 3
+2024-08-24T20:45:54.622Z [[32minfo[39m]: Order ID 2 status updated to completed
+2024-08-24T20:50:52.887Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:51:37.246Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:53:44.841Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:54:38.139Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:55:09.542Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:55:09.651Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:57:14.210Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:57:18.993Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:57:19.115Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:57:39.119Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:57:39.205Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:58:50.664Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T20:59:02.028Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T20:59:02.131Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T20:59:38.224Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:03:42.354Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T21:03:42.450Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T21:05:59.544Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:06:02.889Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T21:06:02.991Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T21:06:24.665Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:10:02.441Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:10:08.024Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T21:10:08.117Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T21:10:57.289Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:16:41.745Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:18:56.592Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:00.485Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:22:15.219Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:18.694Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:20.284Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:21.438Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:22.336Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:23.202Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:22:24.063Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:24:50.727Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:25:00.628Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:25:09.158Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:25:13.871Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:25:30.449Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T21:25:33.957Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:25:35.264Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:25:36.048Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T21:25:36.864Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T22:33:01.614Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T22:33:07.362Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T22:33:07.461Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T22:36:00.765Z [[32minfo[39m]: Attempt to register with email: pablo40@gmail.com
+2024-08-24T22:36:00.853Z [[32minfo[39m]: User registered successfully with email: pablo40@gmail.com
+2024-08-24T22:39:40.889Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-24T22:39:40.978Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-24T22:39:49.369Z [[32minfo[39m]: User 1 is attempting to create an order
+2024-08-24T22:39:49.381Z [[32minfo[39m]: Order 38 created successfully by User 1
+2024-08-24T22:41:13.961Z [[33mwarn[39m]: CORS policy blocked request from origin: http://example.com
+2024-08-24T22:44:20.568Z [[32minfo[39m]: Attempt to update status of order ID 2 by user ID 3
+2024-08-24T22:44:20.573Z [[32minfo[39m]: Order ID 2 status updated to completed
+2024-08-24T23:00:39.108Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T23:03:57.192Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T23:03:57.445Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-24T23:05:50.285Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T23:05:50.517Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-24T23:07:47.527Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T23:07:47.762Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-24T23:09:19.942Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-24T23:09:20.160Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:13:47.299Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:13:50.048Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:20:14.493Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:20:14.661Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:21:39.915Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:21:40.068Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:23:17.243Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:23:17.466Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:24:31.013Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:24:31.184Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:25:49.392Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:26:48.144Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:26:48.365Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:27:26.731Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:27:26.884Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:28:41.431Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:28:50.203Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:28:50.371Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:29:20.039Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:29:27.390Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:29:27.547Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T00:33:22.650Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:33:28.598Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:33:28.745Z [[32minfo[39m]: Attempt to login with email: admin@example.com
+2024-08-25T00:35:27.328Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:35:56.151Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:35:59.953Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:36:40.863Z [[32minfo[39m]: Attempt to register with email: pablo40@gmail.com
+2024-08-25T00:36:53.721Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:37:19.415Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:39:24.288Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:39:36.463Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:41:23.502Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:44:58.747Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:45:15.052Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:45:52.223Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:45:53.896Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:46:17.128Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T00:47:00.681Z [[32minfo[39m]: Attempt to register with email: pablo2@gmail.com
+2024-08-25T00:49:07.281Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T00:49:31.223Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T02:06:19.355Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T02:14:10.064Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T02:14:14.938Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T02:14:15.156Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-25T17:27:21.298Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:27:50.527Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:27:50.806Z [[32minfo[39m]: Attempt to login with email: admin@example.com
+2024-08-25T17:27:50.827Z [[31merror[39m]: Error during login for email: admin@example.com - Access denied for user ''@'localhost' (using password: YES)
+2024-08-25T17:27:50.838Z [[32minfo[39m]: Attempt to register with email: john@example.com
+2024-08-25T17:30:57.678Z [[32minfo[39m]: Attempt to login with email: torviscogod40@gmail.com
+2024-08-25T17:30:57.826Z [[32minfo[39m]: User logged in successfully with email: torviscogod40@gmail.com
+2024-08-25T17:31:12.924Z [[32minfo[39m]: User 1 is attempting to create an order
+2024-08-25T17:31:12.984Z [[32minfo[39m]: Order 39 created successfully by User 1
+2024-08-25T17:32:33.120Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:32:39.477Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:34:17.679Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:34:25.122Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:41:29.190Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:41:34.290Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:43:10.663Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:45:03.753Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:45:21.188Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:45:52.789Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:52:19.433Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:52:25.769Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:52:31.040Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:52:36.831Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:59:40.873Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T17:59:56.356Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:00:02.780Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:00:21.922Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:01:21.727Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:01:28.509Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:02:13.559Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:02:21.475Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:04:52.910Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:04:57.999Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:05:40.414Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:12:54.136Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:13:01.952Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:18:33.917Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:19:08.589Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:19:15.114Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:20:26.957Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:22:59.492Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:24:04.273Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:24:07.295Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:24:25.309Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:24:52.641Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:25:06.601Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:25:10.512Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:25:14.747Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:25:53.216Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:29:30.648Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:30:07.273Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:30:11.585Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:31:21.938Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:31:47.275Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:34:29.701Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:35:06.924Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:37:04.625Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-25T18:41:11.774Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-26T15:55:43.493Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-26T15:55:57.851Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-26T15:55:59.318Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-26T15:56:21.688Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-26T15:57:00.982Z [[32minfo[39m]: Logger initialized and working in createOrder
+2024-08-26T15:57:34.791Z [[32minfo[39m]: Logger initialized and working in createOrder

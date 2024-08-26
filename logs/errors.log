@@ -1,0 +1,8 @@
+2024-08-24T20:30:11.836Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:32:26.459Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:32:36.696Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:32:50.600Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:35:04.711Z [[31merror[39m]: Failed authentication attempt: invalid token
+2024-08-24T20:42:46.747Z [[31merror[39m]: Error registering user with email: torviscogod40@gmail.com - Duplicate entry 'torviscogod40@gmail.com' for key 'users.email'
+2024-08-24T20:42:53.370Z [[31merror[39m]: Error registering user with email: torviscogod40@gmail.com - Duplicate entry 'torviscogod40@gmail.com' for key 'users.email'
+2024-08-25T17:27:50.827Z [[31merror[39m]: Error during login for email: admin@example.com - Access denied for user ''@'localhost' (using password: YES)

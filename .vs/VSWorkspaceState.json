@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\configBD",
+    "\\controllers",
+    "\\routes",
+    "\\tests",
+    "\\utils"
+  ],
+  "SelectedNode": "\\tests\\app.spec.js",
+  "PreviewInSolutionExplorer": false
+}
