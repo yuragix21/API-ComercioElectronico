@@ -1,10 +1,10 @@
-# API de Gestión de Pedidos
+# API de Gestiï¿½n de Pedidos
 
 ## Requisitos
 - Node.js v22.1.0 o superior\
 - Mysql
 
-## Configuración de variables de entorno
+## Configuraciï¿½n de variables de entorno
 PORT=3000
 HOST=localhost
 USER=root
@@ -12,16 +12,16 @@ PASSWORD=Oso.2023
 DATABASE=metro
 JWT_SECRET=diosito
 
-## Instalación 
+## Instalaciï¿½n 
 Ejecuta el siguiente comando para instalar las dependencias
 
 npm install
 
-## Ejecución del servidor
+## Ejecuciï¿½n del servidor
 
 npm start
 
-se utlizo nodemon para el inicio y actualización en tiempo real del servidor.
+se utlizo nodemon para el inicio y actualizaciï¿½n en tiempo real del servidor.
 
 ## Uso de la API
 
@@ -42,7 +42,7 @@ response
 }
 
 
-Inicio sesión de usuario
+Inicio sesiï¿½n de usuario
 POST `/auth/login`
 
 body
@@ -173,7 +173,7 @@ response
    "message": "Order status updated successfully"
 }
 
-En esta petición se incluye userId porque se válida si el usuario es admin o no.
+En esta peticiï¿½n se incluye userId porque se vï¿½lida si el usuario es admin o no.
 
 
 
@@ -182,5 +182,5 @@ En esta petición se incluye userId porque se válida si el usuario es admin o no.
 -JWT
 -Encryptado de password
 -Sanitizacion
--Validación de los datos(para protegerse contra las inyecciones SQL y XSS)
+-Validaciï¿½n de los datos(para protegerse contra las inyecciones SQL y XSS)
 -Cors(para permitir solicitudes desde dominios especificos)

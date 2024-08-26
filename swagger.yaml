@@ -1,0 +1,266 @@
+openapi: 3.0.0
+info:
+  title: API de Gestión de Pedidos
+  description: API para gestionar pedidos en la plataforma Metro.
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+paths:
+  /auth/register:
+    post:
+      summary: Registro de usuario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+                address:
+                  type: string
+      responses:
+        '200':
+          description: Usuario registrado exitosamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: User registered successfully
+
+  /auth/login:
+    post:
+      summary: Inicio de sesión de usuario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Inicio de sesión exitoso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    example: token
+
+  /metro/orders:
+    post:
+      summary: Crear Pedido
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: integer
+                products:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      id_product:
+                        type: integer
+                      quantity:
+                        type: integer
+                shippingAddress:
+                  type: string
+      responses:
+        '200':
+          description: Pedido creado exitosamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Order created successfully
+                  id_order:
+                    type: integer
+                  total:
+                    type: number
+                    format: float
+
+  /metro/orders/{orderId}:
+    get:
+      summary: Obtener una orden según el id del usuario
+      parameters:
+        - in: path
+          name: orderId
+          schema:
+            type: integer
+          required: true
+          description: ID del pedido
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: integer
+      responses:
+        '200':
+          description: Detalles del pedido
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  orderId:
+                    type: integer
+                  userId:
+                    type: integer
+                  orderDate:
+                    type: string
+                    format: date-time
+                  total:
+                    type: number
+                    format: float
+                  shippingAddress:
+                    type: string
+                  status:
+                    type: string
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id_order_item:
+                          type: integer
+                        id_order:
+                          type: integer
+                        id_product:
+                          type: integer
+                        quantity:
+                          type: integer
+                        price:
+                          type: number
+                          format: float
+
+  /metro/users/{userId}/orders:
+    get:
+      summary: Obtener todas las órdenes de un usuario
+      parameters:
+        - in: path
+          name: userId
+          schema:
+            type: integer
+          required: true
+          description: ID del usuario
+        - in: query
+          name: status
+          schema:
+            type: string
+          description: Estado del pedido ('pending', 'shipped', 'completed')
+        - in: query
+          name: page
+          schema:
+            type: integer
+          description: Página a mostrar
+        - in: query
+          name: limit
+          schema:
+            type: integer
+          description: Límite de órdenes por página
+      responses:
+        '200':
+          description: Lista de órdenes del usuario
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  currentPage:
+                    type: integer
+                  totalOrders:
+                    type: integer
+                  orders:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id_order:
+                          type: integer
+                        id_user:
+                          type: integer
+                        order_date:
+                          type: string
+                          format: date-time
+                        total:
+                          type: number
+                          format: float
+                        shipping_address:
+                          type: string
+                        status:
+                          type: string
+
+  /metro/orders/{orderId}:
+    put:
+      summary: Actualizar el estado de un pedido (solo admin)
+      parameters:
+        - in: path
+          name: orderId
+          schema:
+            type: integer
+          required: true
+          description: ID del pedido
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId:
+                  type: integer
+                status:
+                  type: string
+                  description: Estado del pedido ('pending', 'completed')
+      responses:
+        '200':
+          description: Estado del pedido actualizado exitosamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Order status updated successfully
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - BearerAuth: []
+
